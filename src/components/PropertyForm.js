@@ -16,13 +16,6 @@ const PropertyForm = () => {
    const [rooms, setRooms] = useState(null);
    const [error, setError] = useState();
    const [modalIsOpen, setModalIsOpen] = useState(false);
-   const [selectedFile, setSelectedFile] = useState();
-   const [isFilePicked, setIsFilePicked] = useState(false);
-
-   const changeHandler = (event) => {
-      setSelectedFile(event.target.files[0]);
-      setIsFilePicked(true);
-   };
 
    const isEmptyString = (string) => string.trim() === "";
 
