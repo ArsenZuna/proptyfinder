@@ -185,7 +185,6 @@ const PropertyForm = () => {
                 id="customFileMultiple"
                 placeholder="Choose Image"
                 multiple
-                onChange={changeHandler}
               />
            </div>
            <div className="d-flex flex-row-reverse mb-2">
